@@ -1,0 +1,27 @@
+Algoritmo "Exercicio - 12"
+
+Var
+ taxa: real
+ horas: real
+ horas_fx1:real
+ horas_fx2:real
+ total: real
+
+Inicio
+
+    Escreval("Digite a quantidade de horas que a charrete foi usada")
+    leia(horas)
+
+    Se horas < 2 entao
+      horas_fx1 <- 5 * horas
+      Escreval("O valor a pagar E =", horas_fx1)
+    senao
+      horas_fx2 <- 10 * ((horas - 2) / 3))
+      total <- horas_fx2 + 10
+      Escreval("O valor a pagar E =", total)
+    fimse
+    
+
+
+
+Fimalgoritmo
