@@ -1,0 +1,24 @@
+Algoritmo "Lista 01 - Exercicios 6"
+
+Var
+
+   FAHR: REAL
+   CELSIUS: REAL
+   chuva: real
+   milimetro: real
+   
+
+Inicio
+
+     Escreval("Digite o valor da temperatura em graus Fahrenheit")
+     leia(fahr)
+     Escreval("Digite o valor da quantidade de chuva em polegadas")
+     leia (chuva)
+     
+     celsius <- 5*(fahr - 32) / 9
+     milimetro <- chuva * (254/10)
+
+     Escreval("O VALOR EM CELSIUS = ", CELSIUS:2:2)
+     Escreval("A QUANTIDADE DE CHUVA E = ", milimetro:2:2)
+
+Fimalgoritmo
