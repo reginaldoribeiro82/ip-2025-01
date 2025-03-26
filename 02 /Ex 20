@@ -1,0 +1,23 @@
+Algoritmo "Exercicio 20"
+
+Var
+    horas, minutos, segundos : inteiro
+    min_convert, horas_convert : inteiro
+    soma: inteiro
+
+Inicio
+
+    Escreval("Digite o valor em horas")
+    leia (horas)
+    Escreval("Digite o valor em minutos")
+    leia (minutos)
+    Escreval("Digite o valor em segundos")
+    leia (segundos)
+    
+    min_convert <- minutos * 60
+    horas_convert <- horas * 3600
+    Soma <- segundos + min_convert + horas_convert
+    
+    Escreval("O TEMPO EM SEGUNDOS É ", SOMA)
+    
+Fimalgoritmo
