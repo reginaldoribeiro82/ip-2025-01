@@ -1,0 +1,31 @@
+Algoritmo "Exercicio - 13 "
+
+Var
+
+  nota: real
+
+Inicio
+
+   Escreval("Digite a nota para converte-la no conceito.")
+   leia (nota)
+
+   Se (nota >= 9) E (nota <=10) entao
+      Escreval("NOTA ",nota," CONCEITO A")
+   senao
+      Se (nota >= 7.5) E (nota < 9.0) entao
+        Escreval ("NOTA ",nota, " CONCEITO B")
+      senao
+        Se (nota >= 6.0) E (nota < 7.5) entao
+          Escreval ("NOTA ",nota, " CONCEITO C")
+        senao
+           Se (nota >=0) E (nota <6.0) entao
+             Escreval ("NOTA ",nota, " CONCEITO D")
+           fimse
+        fimse
+      fimse
+   fimse
+
+
+
+
+Fimalgoritmo
