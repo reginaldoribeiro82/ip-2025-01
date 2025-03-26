@@ -1,0 +1,18 @@
+Algoritmo "Lista 01 - Exercicios 6"
+
+Var
+
+   FAHR: REAL
+   CELSIUS: REAL
+   
+
+Inicio
+
+     Escreval("Digite o valor em graus Fahrenheit")
+     leia(fahr)
+     
+     celsius <- 5*(fahr - 32) / 9
+
+     Escreval(FAHR:2:2," FAHRENHEIT EQUIVALE A ", CELSIUS:2:2, " CELSIUS")
+
+Fimalgoritmo
