@@ -1,0 +1,25 @@
+Algoritmo "Exercicio 19"
+
+Var
+   num : inteiro
+   soma: real
+   contador: inteiro
+
+Inicio
+
+
+    escreval("Digite um numero inteiro positivo")
+    leia (num)
+    se (num >= 1) entao
+        enquanto (num > contador) faca
+          contador <- contador + 1
+          Soma <- Soma + ( 1 / contador)
+        fimenquanto
+        escreval("O valor de S é ", soma:6:6)
+    senao
+      escreval("Número inválido")
+    fimse
+
+
+
+Fimalgoritmo
