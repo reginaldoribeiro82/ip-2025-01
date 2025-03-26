@@ -1,0 +1,17 @@
+Algoritmo "exercicio 15"
+
+Var
+
+   num : inteiro
+   quadrado: real
+
+Inicio
+
+    escreval("Digite um numero inteiro (N) 5 < N < 2000")
+    leia (num)
+    
+    quadrado <- num ^ 2
+    
+    Escreval(num ," ^",num ," =", quadrado)
+
+Fimalgoritmo
