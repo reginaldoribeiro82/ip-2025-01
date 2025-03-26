@@ -1,24 +1,28 @@
-Algoritmo "Exercicio 19"
+Algoritmo "Exercicio 18"
 
 Var
-   num : inteiro
-   soma: real
+
+   valor_ini, razao:real
+   num_ele:inteiro
    contador: inteiro
+   soma:real
 
 Inicio
 
+   Escreval("Digite o valor inicial da progressão aritmética")
+   leia(valor_ini)
+   Escreval("Digite a razão da progressão artitmética")
+   leia(razao)
+   Escreval("Digite o número de elementos da progressão")
+   leia (num_ele)
+   
+   soma <- 0
+   contador <- 1
+   enquanto num_ele >= contador faca
+   Soma <- Soma + valor_ini + razao*(contador - 1)
+   contador <- contador + 1
+   
+   fimenquanto
 
-    escreval("Digite um numero inteiro positivo")
-    leia (num)
-    se (num >= 1) entao
-        enquanto (num > contador) faca
-          contador <- contador + 1
-          Soma <- Soma + ( 1 / contador)
-        fimenquanto
-        escreval("O valor de S é ", soma:6:6)
-    senao
-      escreval("Número inválido")
-    fimse
-
-
+   Escreval("O VALOR DA SOMA É ", soma)
 Fimalgoritmo
