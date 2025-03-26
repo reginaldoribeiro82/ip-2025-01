@@ -1,0 +1,30 @@
+Algoritmo "Lista 01 - Exercicio 8"
+
+
+
+Var
+
+raio : real
+altura: real
+custo : real
+area_base : real
+area_total: real
+area_lateral : real
+
+Inicio
+
+       Escreval("Digite o raio da lata em metros")
+       leia(raio)
+       Escreval("Digite a altura da lata em metros")
+       leia(altura)
+
+
+       Area_base <- pi * (raio ^ 2)
+       Area_lateral <- 2 * pi * raio * altura
+       Area_total <- 2* area_base + area_lateral
+       custo <- area_total * 100
+       
+
+
+       Escreval("O VALOR DO CUSTO E = ", custo:2:2)
+Fimalgoritmo
