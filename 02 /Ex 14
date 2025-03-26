@@ -1,0 +1,23 @@
+Algoritmo "Exercicio 14"
+
+Var
+altura_pir : real
+aresta_hex : real
+vol_pir : real
+area_base: real
+
+
+Inicio
+
+     Escreval("Digite a altura da pirade")
+     leia (altura_pir)
+     Escreval("Digite a aresta da aresta_hex")
+     leia (aresta_hex)
+     
+     area_base <- 3 * (aresta_hex * aresta_hex) * 0.866
+      vol_pir <- (area_base * altura_pir) / 3
+
+
+     Escreval("O VOLUME DA PIRADE É ", vol_pir," METROS CUBICOS")
+
+Fimalgoritmo
