@@ -1,0 +1,26 @@
+Algoritmo "Exercicio 04"
+
+Var
+     sal_min : real
+     gasto_kwh: real
+     kwh_sal : real
+     gasto_reais: real
+     gasto_reais_desc: real
+     custo_kwh: real
+
+
+Inicio
+
+     escreval("Digite o valor do salário mínimo")
+     leia (sal_min)
+     escreval("Digit o consumo de kwh da residência")
+     leia (gasto_kwh)
+     kwh_sal <- sal_min * (7 / 1000)
+     gasto_reais <- kwh_sal * gasto_kwh
+     gasto_reais_desc <- gasto_reais * (90/100)
+     
+     Escreval("Custo por kW: R$",kwh_sal:2:2)
+     Escreval("Custo do consumo: R$",gasto_reais:2:2)
+     Escreval("Custo com desconto: R$",gasto_reais_desc:2:2)
+     
+Fimalgoritmo
