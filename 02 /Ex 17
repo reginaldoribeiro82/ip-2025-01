@@ -1,0 +1,31 @@
+Algoritmo "Exercicio 17"
+
+
+Var
+   num1: real
+   num2: real
+   seq: real
+   contador: inteiro
+
+Inicio
+
+    escreval("Digite um número")
+    leia (num1)
+    escreval("Digite um outro número")
+    leia (num2)
+    
+    seq <- num1 - 2
+    contador <- 0
+    Se (num1 mod 2  = 0) entao
+        enquanto (contador < num2 )faca
+           contador <- contador +1
+           seq <- seq + 2
+           escreva(seq)
+           
+        fimenquanto
+    senao
+       escreval("O primeiro número não é par")
+    fimse
+
+    
+Fimalgoritmo
