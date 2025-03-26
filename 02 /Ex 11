@@ -1,0 +1,28 @@
+Algoritmo "Exercicio 11"
+
+Var
+
+   num:  inteiro
+   
+   divisao_3: real
+   divisao_5: real
+
+Inicio
+
+    Escreval("Digite um numero inteiro")
+    leia(num)
+    
+    divisao_3 <- num mod  3
+    divisao_5 <- num mod  5
+    
+    Se divisao_3 = 0 entao
+        Se divisao_5 = 0 entao
+           Escreval("O numero é divisivel")
+        senao
+           Escreval("O numero não é divisivel")
+        fimse
+    senao
+       Escreval("O numero não é divisivel")
+    fimse
+
+Fimalgoritmo
