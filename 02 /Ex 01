@@ -1,0 +1,37 @@
+Algoritmo "Lista 1- Ex 1"
+
+Var
+
+    n1,n2,n3 : real]
+    media : real
+Inicio
+
+//ENTRADA
+
+   
+   Escreval("Digite a 1ª Nota")
+   leia(n1)
+   Escreval("Digite a 2ª Nota")
+   leia(n2)
+   Escreval("Digite a 3ª Nota")
+   leia(n3)
+   
+
+
+//PROCESSAMENTO
+
+    media <- (n1 + n2 + n3) / 3
+
+
+//SAIDA
+    Se media >= 6 entao
+        Escreval(media:3:2)
+        Escreval("APROVADO")
+    
+    senao
+        Escreval(media:3:2)
+        Escreval("REPROVADO")
+    
+    fimse
+
+Fimalgoritmo
