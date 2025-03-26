@@ -1,0 +1,22 @@
+Algoritmo "Exercicio 16"
+
+Var
+   sal : real
+   sal_reaj : real
+
+
+Inicio
+
+   escreval("Digite o salario")
+   leia (sal)
+
+
+   Se sal <= 300 entao
+     sal_reaj <- sal * 1.5
+     Escreval("Salario com reajuste =", sal_reaj)
+   senao
+     sal_reaj <- sal * 1.3
+     Escreval("Salario com reajuste =", sal_reaj)
+   fimse
+
+Fimalgoritmo
