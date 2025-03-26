@@ -1,0 +1,33 @@
+Algoritmo "Lista 01 - Exercicio 9"
+
+Var
+
+ a,b,c : real
+ delta: real
+
+Inicio
+
+// ENTRADA
+
+      Escreval("Digite o valor do coeficiente A")
+      leia (a)
+      Escreval("Digite o valor do coeficiente B")
+      leia (b)
+      Escreval("Digite o valor do coeficiente C")
+      leia (c)
+      
+      
+
+
+// PROCESSAMENTO
+
+    Delta <- (b^2) - (4 * a * c)
+    
+    escreval("O valor de delta E = ", delta:2:2)
+
+
+// SAIDA
+
+
+
+Fimalgoritmo
