@@ -1,0 +1,67 @@
+Algoritmo "Lista 01- Exercicio 05"
+
+Var
+
+  g_residencial : real
+  g_comercial_fx1 : real
+  g_comercial_fx2 : real
+  metro_c: real
+  g_industrial_fx1 : real
+  g_industrial_fx2 :real
+  metro_i: real
+  num: real
+  conta_cliente: inteiro
+  tipo_c:caractere
+  
+  
+  
+Inicio
+
+
+//ENTRADA
+
+    escreval("Digite o número da conta")
+    leia(conta_cliente)
+    escreval("Digite o consumo de agua por metros cúbicos")
+    leia(num)
+    escreval("Digite o tipo de consumidor (C - Comercial, I - Industrial, R -  Residencial)")
+    leia(tipo_c)
+
+    Se (tipo_c = "C") entao
+       Se (num <= 80)  entao
+             g_comercial_fx1 <- 500
+             Escreval("CONTA = ",conta_cliente)
+             Escreval("VALOR DA CONTA = ", g_comercial_fx1)
+       senao
+             metro_c <- num - 80
+             g_comercial_fx2 <- (metro_c*25/100) + 500
+             Escreval("CONTA = ",conta_cliente)
+             Escreval("VALOR DA CONTA = ", g_comercial_fx2)
+       fimse
+    senao
+        Se (tipo_c = "I") entao
+           Se (num <= 100) entao
+               g_industrial_fx1 <- 800
+               Escreval("CONTA = ",conta_cliente)
+               Escreval("VALOR DA CONTA = ",g_industrial_fx1)
+           senao
+               metro_i <- num - 100
+               g_industrial_fx2 <- (metro_i*4/100) + 800
+               Escreval("CONTA = ",conta_cliente)
+               Escreval("VALOR DA CONTA = ",g_industrial_fx2)
+           fimse
+        senao
+               g_residencial <- 5 * num
+               Escreval("CONTA = ",conta_cliente)
+               Escreval("VALOR DA CONTA = ", g_residencial)
+        fimse
+    fimse
+
+
+//PROCESSAMENTO
+
+
+//SAIDA
+
+
+Fimalgoritmo
