@@ -1,0 +1,38 @@
+Algoritmo "Lista 01- Exercicio2"
+
+Var
+    n_jogos: inteiro
+    contador: inteiro
+    popular,geral,arquibancada,cadeira : real
+    total: inteiro
+    renda: real
+
+
+Inicio
+      Contador <-1
+
+      Escreval("Digite o número de jogos")
+      leia(n_jogos)
+      contador <- contador+1
+
+      para contador de 1 ate (n_jogos) faca
+      Escreval("Informe o numero total de pessoas que comparam os ingressos.")
+      leia (total)
+      Escreval("Informe a percentagem de pessoas na categoria Popular")
+      leia (popular)
+      Escreval("Informe a percentagem de pessoas na categoria Geral")
+      leia (geral)
+      Escreval("Informe a percentagem na categoria Arquibancada")
+      leia (arquibancada)
+      Escreval("Informe a percentagem na categoria Cadeiras")
+      leia (cadeira)
+      
+      Renda <- total*(popular/100)*1 + total*(geral/100)*5 + total*(arquibancada/100)*10 + total*(cadeira/100)*20
+      Escreval("A renda do jogo N.",contador, " E = ", renda:7:2)
+      
+      fimpara
+      
+
+
+
+Fimalgoritmo
