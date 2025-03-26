@@ -2,7 +2,7 @@ Algoritmo "Lista 1- Ex 1"
 
 Var
 
-    n1,n2,n3 : real]
+    n1,n2,n3 : real
     media : real
 Inicio
 
