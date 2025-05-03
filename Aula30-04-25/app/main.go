@@ -14,10 +14,10 @@ func main() {
     http.Handle("/", fileserver)
 
    
-    fmt.Printf("port running on http://localhost:8081/\n")
+    fmt.Printf("port running on http://localhost:8081/\n") //  camimho para acessar o site do servidor local. para acessar só digitar no navegador
 
     
     if err := http.ListenAndServe(":8081", nil); err != nil {
-        log.Fatal(err) // Registra o erro e encerra o programa.
+        log.Fatal(err) 
     }
 }
